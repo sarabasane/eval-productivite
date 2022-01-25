@@ -29,7 +29,7 @@ git clone https://bitbucket.org/virtuoworks/eval-productivite.git
 
 ## 2 : Créer une branche (1pt)
 
-Vous créerez une branche que vous appelerez "eval" et vous positionnerez dessus. 
+Vous créerez une branche que vous appellerez "eval" et vous vous positionnerez dessus. 
 Ce sera votre branche de travail pour l'évaluation. Vous la fusionnerez avec la branche "main" à la fin de l'évaluation.
 
 ## 3 : Installation des dépendances (1pt)
@@ -66,7 +66,7 @@ Insérez la chaîne de caractères suivante dans le champ du formulaire :
 
 ## 8 : Modulariser le code (3pts)
 
-Le code de l'application utilise deux fonctions principales permettant de récupérer des données depuis une API et une fonction permettant d'afficher le message d'un utilisateur. Vous ferez de sorte de :
+Le code de l'application utilise deux fonctions principales permettant de récupérer des données depuis une API et une fonction permettant d'afficher le message d'un utilisateur. Vous ferez en sorte de :
 
 1. Séparer les trois fonctions dans trois fichiers JS distincts qui exporteront le code de chaque fonction (par un export par défaut ou un export nommé) ;
 2. Créer un fichier main.js que vous placerez dans le dossier /public/js ;
