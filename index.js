@@ -10,14 +10,13 @@ const host='127.0.0.1'
 
 const app=express()
 app.use(cors())
-app.use(express.static(path.join(dirname,'public'),{
-  setHeaders: function(res,path,stat) {res.set('X-Content-Type-Options','nosniff')}
-}))
+app.use(express.static(path.join(dirname, 'public')))
+app.use('/favicon.ico', express.static(path.join(dirname, 'public', 'images', 'favicon.png')))
+
 
 app.get('/',(req,res) =>{
   res.sendFile('index.html',{root: path.join(dirname)},err=>{
     if (err) throw new Error(err)
-    console.log('Fichier index servi avec succès.')
   })
 })
 
