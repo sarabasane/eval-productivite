@@ -34,19 +34,23 @@ Ce sera votre branche de travail pour l'évaluation. Vous la fusionnerez avec la
 
 ## 3 : Installation des dépendances (1pt)
 
-1.Installez les dépendances du projet.
+1. Installez les dépendances du projet.
+2. Faire un commit
 
 ## 4 : Documenter le code (2pts)
 
-Vous utiliserez JSDoc, dont la documentation peut être consultée [ici](https://jsdoc.app/about-getting-started.html)
+1. Vous utiliserez JSDoc, dont la documentation peut être consultée [ici](https://jsdoc.app/about-getting-started.html)
+2. Faire un commit
 
 ## 5 : Linter le code (2pts)
 
-Vous utiliserez ESLint pour linter le code (ESLint est déjà installé dans le projet). La documentation est consultable [ici](https://eslint.org/docs/user-guide/getting-started)
+1. Vous utiliserez ESLint pour linter le code (ESLint est déjà installé dans le projet). La documentation est consultable [ici](https://eslint.org/docs/user-guide/getting-started)
+2. Faire un commit
 
 ## 6 : Embellir le code (1pt)
 
-En utilisant Prettier, dont la documentation peut être trouvée [ici](https://prettier.io/docs/en/install.html), vous embellirez le code afin qu'il respecte les bonnes pratiques.
+1. En utilisant Prettier, dont la documentation peut être trouvée [ici](https://prettier.io/docs/en/install.html), vous embellirez le code afin qu'il respecte les bonnes pratiques.
+2. Faire un commit
 
 ## 7 : Renforcer le code (3pts)
 
@@ -57,7 +61,8 @@ Insérez la chaîne de caractères suivante dans le champ du formulaire :
 "<script>for(let i = 1; i < 20; i++) { alert(`Coucou ${i} fois !`) }</script>"
 ```
 
-Corrigez cette faille de sécurité.
+1. Corrigez cette faille de sécurité.
+2. Faire un commit
 
 ## 8 : Modulariser le code (3pts)
 
@@ -67,10 +72,12 @@ Le code de l'application utilise deux fonctions principales permettant de récup
 2. Créer un fichier main.js que vous placerez dans le dossier /public/js ;
 3. Importer les trois fonctions dans le fichier main.js ;
 4. Modifier le code du fichier index.html afin qu'il charge le script main.js.
+5. Faire un commit
 
 ## 9 : Tester le code (3pts)
 
-En utilisant Jest, qui est installé dans le projet, vous créerez un test pour chacune des deux fonctions présentes dans le fichier /public/js/functionsToTest.js (returnAnObject et multiplyAllByTwo).
+1. En utilisant Jest, qui est installé dans le projet, vous créerez un test pour chacune des deux fonctions présentes dans le fichier /public/js/functionsToTest.js (returnAnObject et multiplyAllByTwo).
+2. Faire un commit
 
 Vous vérifierez bien que vos tests passent tous.
 
