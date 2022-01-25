@@ -1,0 +1,7 @@
+include includes/base.pug
+block content
+  form(action="/comment", method="post") 
+    label(for="") #{user.pseudo} dit : 
+    label(for="message") Votre message : 
+    input(type="textarea", id="message", name="message", maxlength="255")
+    button(type="submit", id="submitBtn") Envoyer  

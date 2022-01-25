@@ -1,0 +1,8 @@
+include includes/base.pug
+block content
+  form(action="/login", method="post") 
+    label(for="pseudo") Pseudo : 
+    input(type="text" id="pseudo" name="pseudo" maxlength="16")
+    label(for="pwd") Mot de passe : 
+    input(type="password", id="pwd", name="pwd", maxlength="32")
+    button(type="submit", id="submitBtn") Connexion  
