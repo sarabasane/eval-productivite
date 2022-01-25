@@ -50,37 +50,39 @@ En utilisant Prettier, dont la documentation peut être trouvée [ici](https://p
 
 ## 7 Renforcer le code
 
-Dans le projet ont été intégrées deux failles de sécurité principales. A vous de les déceler et de les corriger...
+Dans le projet a été intégrée une faille de sécurité béante...
+
+Insérez la chaîne de caractères suivante dans le champ du formulaire :
+```javascript
+"<script>for(let i = 1; i < 20; i++) { alert(`Coucou ${i} fois !`) }</script>"
+```
+
+Corrigez cette faille de sécurité.
 
 ## 8 Modulariser le code
 
-Le code de l'application utilise deux fonctions principales permettant de récupérer des données depuis une API. Vous ferez de sorte de :
+Le code de l'application utilise deux fonctions principales permettant de récupérer des données depuis une API et une fonction permettant d'afficher le message d'un utilisateur. Vous ferez de sorte de :
 
-1. Séparer les deux fonctions dans deux fichiers JS distincts qui exporteront le code de chaque fonction (par un export par défaut ou un export nommé) ;
+1. Séparer les trois fonctions dans trois fichiers JS distincts qui exporteront le code de chaque fonction (par un export par défaut ou un export nommé) ;
 2. Créer un fichier main.js que vous placerez dans le dossier /public/js ;
-3. Importer les deux fonctions dans le fichier main.js ;
+3. Importer les trois fonctions dans le fichier main.js ;
 4. Modifier le code du fichier index.html afin qu'il charge le script main.js.
 
-## 9 Bundler le code
+## 9 Tester le code
 
-
-
-
-## 10 Tester le code
-
-En utilisant Jest, vous créerez un test pour chacune des deux fonctions présentes dans le fichier /public/js/toTest.js.
+En utilisant Jest, vous créerez un test pour chacune des deux fonctions présentes dans le fichier /public/js/functionsToTest.js (returnAnObject et multiplyAllByTwo).
 
 Vous vérifierez bien que vos tests passent tous.
 
-## 11 Fusionner les branches
+## 10 Fusionner les branches
 
 Vous fusionnerez votre branche avec la branche main.
 
-## 12 Créer un dépôt distant
+## 11 Créer un dépôt distant
 
 Sur GitHub ou Bitbucket, à votre convenance, vous créerez un dépôt distant afin de pouvoir y envoyer le code de votre application.
 
-## 13 Sauvegarder le code en ligne
+## 12 Sauvegarder le code en ligne
 
 Vous enverrez le code de votre branche main dans votre dépôt distant nouvellement créé.
 

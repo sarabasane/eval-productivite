@@ -27,5 +27,30 @@ p {
 }
 
 .pikapika {
+  margin-top: 10px;
   visibility: hidden;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+label, input {
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
+#comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+span {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
