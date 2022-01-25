@@ -1,2 +1,8 @@
 # Dossier node_modules
 /node_modules
+
+# Views folder
+/views
+
+# index.js
+index.js
