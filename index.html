@@ -20,11 +20,10 @@
     <p id="pokeAbility"></p>
   </div>
   <div id="comment">
-    <form>
+    <form action="/comment" method="POST">
       <label for="message">Send us a message: </label><input type="text" id="messageInput" name="message" value="">
-      <button id="sendButton">Send</button>  
+      <button type="submit" id="sendButton">Send</button>  
     </form>
-    <div class="pikapika" id="myComment">Votre message: <span id="message"></span>
     </div>
 
   </div>
