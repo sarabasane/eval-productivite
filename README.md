@@ -66,13 +66,13 @@ Insérez la chaîne de caractères suivante dans le champ du formulaire :
 
 ## 8 : Modulariser le code (3pts)
 
-Le code de l'application utilise deux fonctions principales permettant de récupérer des données depuis une API et une fonction permettant d'afficher le message d'un utilisateur. Vous ferez de sorte de :
+Le code de l'application utilise deux fonctions principales permettant de récupérer des données depuis une API et une fonction permettant d'afficher le message d'un utilisateur. Vous ferez en sorte de :
 
 1. Séparer les trois fonctions dans trois fichiers JS distincts qui exporteront le code de chaque fonction (par un export par défaut ou un export nommé) ;
 2. Créer un fichier main.js que vous placerez dans le dossier /public/js ;
 3. Importer les trois fonctions dans le fichier main.js ;
-4. Modifier le code du fichier index.html afin qu'il charge le script main.js.
-5. Faire un commit
+4. Modifier le code du fichier index.html afin qu'il charge le script main.js ;
+5. Faire un commit.
 
 ## 9 : Tester le code (3pts)
 
