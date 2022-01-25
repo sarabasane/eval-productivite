@@ -27,28 +27,28 @@ HTTPS :
 git clone https://bitbucket.org/virtuoworks/eval-productivite.git
 ```
 
-## 2 Créer une branche
+## 2 : Créer une branche
 
 Vous créerez une branche que vous appelerez "eval" et vous positionnerez dessus. 
 Ce sera votre branche de travail pour l'évaluation. Vous la fusionnerez avec la branche "main" à la fin de l'évaluation.
 
-## 3 Installation des dépendances
+## 3 : Installation des dépendances
 
 1.Installez les dépendances du projet.
 
-## 4 Documenter le code
+## 4 : Documenter le code
 
 Vous utiliserez JSDoc, dont la documentation peut être consultée [ici](https://jsdoc.app/about-getting-started.html)
 
-## 5 Linter le code
+## 5 : Linter le code
 
 Vous utiliserez ESLint pour linter le code (ESLint est déjà installé dans le projet). La documentation est consultable [ici](https://eslint.org/docs/user-guide/getting-started)
 
-## 6 Embellir le code
+## 6 : Embellir le code
 
 En utilisant Prettier, dont la documentation peut être trouvée [ici](https://prettier.io/docs/en/install.html), vous embellirez le code afin qu'il respecte les bonnes pratiques.
 
-## 7 Renforcer le code
+## 7 : Renforcer le code
 
 Dans le projet a été intégrée une faille de sécurité béante...
 
@@ -59,7 +59,7 @@ Insérez la chaîne de caractères suivante dans le champ du formulaire :
 
 Corrigez cette faille de sécurité.
 
-## 8 Modulariser le code
+## 8 : Modulariser le code
 
 Le code de l'application utilise deux fonctions principales permettant de récupérer des données depuis une API et une fonction permettant d'afficher le message d'un utilisateur. Vous ferez de sorte de :
 
@@ -68,21 +68,21 @@ Le code de l'application utilise deux fonctions principales permettant de récup
 3. Importer les trois fonctions dans le fichier main.js ;
 4. Modifier le code du fichier index.html afin qu'il charge le script main.js.
 
-## 9 Tester le code
+## 9 : Tester le code
 
-En utilisant Jest, vous créerez un test pour chacune des deux fonctions présentes dans le fichier /public/js/functionsToTest.js (returnAnObject et multiplyAllByTwo).
+En utilisant Jest, qui est installé dans le projet, vous créerez un test pour chacune des deux fonctions présentes dans le fichier /public/js/functionsToTest.js (returnAnObject et multiplyAllByTwo).
 
 Vous vérifierez bien que vos tests passent tous.
 
-## 10 Fusionner les branches
+## 10 : Fusionner les branches
 
 Vous fusionnerez votre branche avec la branche main.
 
-## 11 Créer un dépôt distant
+## 11 : Créer un dépôt distant
 
 Sur GitHub ou Bitbucket, à votre convenance, vous créerez un dépôt distant afin de pouvoir y envoyer le code de votre application.
 
-## 12 Sauvegarder le code en ligne
+## 12 : Sauvegarder le code en ligne
 
 Vous enverrez le code de votre branche main dans votre dépôt distant nouvellement créé.
 
