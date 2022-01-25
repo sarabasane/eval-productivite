@@ -3,6 +3,11 @@ window.addEventListener('DOMContentLoaded', ()=>{
   const pokeDiv=document.getElementById('pokemon-info')
   const pokeAbilityBtn=document.getElementById('ability')
 
+  const sendButton=document.getElementById('sendButton')
+  const displayFavorite=document.getElementById("myChoice")
+  sendButton.addEventListener('click', displayFavoriteHandler)
+  function displayFavoriteHandler(event) {event.preventDefault();displayFavorite.style.visibility="visible";$("#favoritePokemon").html($("#favoritePokemonInput").val())}
+
   const fetchPokemon=async ()=>{
     const pokedexNum=Math.floor(Math.random() * 897)
     let foundPokemon=''
