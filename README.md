@@ -32,6 +32,8 @@ git clone https://github.com/VirtuoWorks/eval-productivite.git
 Vous créerez une branche que vous appellerez "eval" et vous vous positionnerez dessus.
 Ce sera votre branche de travail pour l'évaluation. Vous la fusionnerez avec la branche "main" à la fin de l'évaluation.
 
+Basculez sur cette branche.
+
 ## 3 : Installer les dépendances (1pt)
 
 Installez les dépendances du projet en utilisant le gestionnaire de paquet `npm`.
