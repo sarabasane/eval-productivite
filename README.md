@@ -122,4 +122,5 @@ Changer l'url du dépôt distant (la notre) par celle de votre dépôt local (la
 Une fois l'évaluation terminée, vous enverrez le lien vers votre dépôt distant à l'adresse e-mail alexandre.masson@virtuoworks.com en précisant dans l'objet de l'e-mail les informations suivantes : [NOM] [prénom] [Promotion DIWJS]
 
 Si vous **n'avez pas réussi** à créer le dépôt distant ou pousser votre branche sur le dépôt distant, vous pouvez créer une archive avec votre dossier de travail **SANS le SOUS-DOSSIER** `node_modules` et l'envoyer par mail à l'adresse alexandre.masson@virtuoworks.com en précisant dans l'objet de l'e-mail les informations suivantes : [NOM] [prénom] [Promotion DIWJS]
+
 # eval

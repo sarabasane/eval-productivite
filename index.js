@@ -13,10 +13,8 @@ const app = express();
 app.use(express.urlencoded({extended: true}));
 app.use(cors());
 app.use(express.static(path.join(dirname, 'public')));
-app.use(
-    '/favicon.ico',
-    express.static(path.join(dirname, 'public', 'images', 'favicon.png')),
-);
+app.use('/favicon.ico', express.static(
+    path.join(dirname, 'public', 'images', 'favicon.png')));
 
 app.get('/', (req, res) => {
   res.sendFile('index.html', {root: path.join(dirname)}, (err) => {
@@ -26,10 +24,10 @@ app.get('/', (req, res) => {
 
 app.post('/comment', (req, res) => {
   const comment = Sanitizer.sanitize(req.body.message);
-  if(comment) {
-    return res.status(200).send(comment)
+  if (comment) {
+    return res.status(200).send(comment);
   }
-  res.status(401).send("<h1>Script non autorisé</>");
+  res.status(401).send('<h1>Script non autorisé</>');
 });
 
 app.listen(port, host, () => {
