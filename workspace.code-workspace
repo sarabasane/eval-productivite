@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "path": "../../IFOCOP"
+    },
+    {
+      "name": "eval-productivite",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "open-in-browser.default": "Mozzilla Firefox",
+    "liveServer.settings.multiRootWorkspaceName": "eval-productivite"
+  }
+}
